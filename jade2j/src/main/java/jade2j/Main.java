@@ -25,7 +25,7 @@ public class Main {
         jadeConfiguration.setPrettyPrint(true);
         jadeConfiguration.setMode(Jade4J.Mode.XML);
 
-        JadeTemplate template = jadeConfiguration.getTemplate("/Users/graemel/IdeaProjects/jade2j/src/main/java/jade2j/index.jade");
+        JadeTemplate template = jadeConfiguration.getTemplate("src/main/java/jade2j/index.jade");
 
         StopWatch stopWatch = new StopWatch();
 
