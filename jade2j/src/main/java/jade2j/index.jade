@@ -1,0 +1,10 @@
+!!! xml
+html
+  head
+    title= pageName
+  body
+    ol#books
+      for book in books
+        if book.available
+          - if (book.flag == "0" || book.flag == "N" || book.flag == "no") { flag = "No"; } else { flag = "Yes"; }
+          li(flag="#{flag}") #{book.name} for #{book.price} €
