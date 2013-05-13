@@ -18,3 +18,9 @@ Pull all of these features together into a single POM so that:
 * Used from maven
 * Able to cucumber Java code
 * Able to cucumber Groovy code
+
+## Learings ##
+
+An idea I had was to try and see what it would look like if I used anonymous functions as a means of iterating over collections
+rather than using a for loop.  The experiment was successful in that it can be done, the code is simple to understand although
+it is a little verbose.
